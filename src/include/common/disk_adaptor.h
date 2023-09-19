@@ -17,7 +17,7 @@ public:
         capacity_ = memory_capcaity;
         fd_ = open(disk_name.c_str(), O_RDWR);
         if (fd_ == -1) {
-            perror("open error");
+            perror("open disk error");
             exit(1);
         }
     }
