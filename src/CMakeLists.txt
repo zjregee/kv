@@ -1,9 +1,11 @@
 add_subdirectory(common)
+add_subdirectory(extendible_hash_table)
 
 add_library(kv STATIC ${ALL_OBJECT_FILES})
 
 set(KV_LIBS
     kv_common
+    kv_extendible_hash_table
 )
 
 set(KV_THIRDPARTY_LIBS leveldb)

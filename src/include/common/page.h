@@ -1,9 +1,8 @@
 #pragma once
 
-#include <string>
 #include <cstring>
 
-namespace KV {
+namespace kv {
 
 static const size_t PAGE_SIZE = 4096;
 static const int INVALID_PAGE_ID = -1;

@@ -9,7 +9,7 @@
 #include <string>
 #include <mutex>
 
-namespace KV {
+namespace kv {
 
 class DiskAdaptor {
 public:
