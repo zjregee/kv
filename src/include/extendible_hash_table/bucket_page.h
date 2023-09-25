@@ -24,7 +24,7 @@ private:
     size_t bucket_array_offset_;
 
     auto IsOccupied() -> bool;
-    boid SetOccupied();
+    void SetOccupied();
 };
 
 }
